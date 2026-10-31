@@ -1,0 +1,19 @@
+[05:15:42] === run_forge 开始 ===
+[05:15:42] 提交任务 backend=hunyuan3d
+[05:15:43]   创建任务失败 HTTP 403: {"error": "region_restricted", "backend": "hunyuan3d", "message": "This engine is not available in your region because its model licence excludes it. Use the default engine, which is available everywhere.", "retry_backends": ["trellis_selfhost"]}
+[05:15:43] backend=hunyuan3d 未出模型，尝试下一个
+[05:15:43] 提交任务 backend=huggingface
+[05:15:43]   创建任务失败 HTTP 403: {"error": "region_restricted", "backend": "huggingface", "message": "This engine is not available in your region because its model licence excludes it. Use the default engine, which is available everywhere.", "retry_backends": ["trellis_selfhost"]}
+[05:15:43] backend=huggingface 未出模型，尝试下一个
+[05:15:43] 提交任务 backend=trellis_selfhost
+[05:15:47]   job=f1.eyJwIjoiZ2NwIiwiayI6b 已建，开始轮询
+[05:16:04]   轮询 0 status=queued elapsed=11s
+[05:17:06]   轮询 6 status=queued elapsed=79s
+[05:18:08]   轮询 12 status=queued elapsed=141s
+[05:19:09]   轮询 18 status=queued elapsed=203s
+[05:20:13]   轮询 24 status=queued elapsed=266s
+[05:21:15]   轮询 30 status=queued elapsed=329s
+[05:22:17]   轮询 36 status=running elapsed=391s
+[05:22:57]   轮询 38 status=done elapsed=Nones
+[05:22:58]   成功！模型已下载: /workspace/jzt-dentech2026-img/figurine-3d-pack/output/model-trellis_selfhost.glb (5158788 bytes)
+[05:22:58] === 完成：/workspace/jzt-dentech2026-img/figurine-3d-pack/output/model-trellis_selfhost.glb ===
